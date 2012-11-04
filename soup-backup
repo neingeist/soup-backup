@@ -17,7 +17,7 @@ You'll find the export URL under 'Privacy'.
 The export RSS file and the enclosures will be saved in your current working
 directory. This script requires wget and xsltproc.
 
-svn://bl0rg.net/utils/soup-backup
+https://github.com/neingeist/soup-backup
 "
   exit
 fi
