@@ -1,3 +1,6 @@
+<b>NOTICE: Won't work since ... hmm,  2012 as the soup export RSS isn't
+working anymore.</b>
+
 This script saves your soup including enclosures and might kill your cat
 (laughing or not.) A little .sh by neingeist (http://nein.gei.st.)
 
