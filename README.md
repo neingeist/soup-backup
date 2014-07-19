@@ -1,5 +1,6 @@
-<b>NOTICE: Won't work since ... hmm,  2012 as the soup export RSS isn't
-working anymore.</b>
+Newer Note: The script is still working. If it isn't it might just be that soup had another outage again.
+<s>NOTICE: Won't work since ... hmm,  2012 as the soup export RSS isn't
+working anymore.</s>
 
 This script saves your soup including enclosures and might kill your cat
 (laughing or not.) A little .sh by neingeist (http://nein.gei.st.)
