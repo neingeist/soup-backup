@@ -46,11 +46,11 @@ echo "$xsl" > "$xslfile"
 cd "$SAVEDIR"
 echo "Saving export RSS..."
 
-if ! wget -nv -O backup.rss -q "$EXPORTURL"; then
-  echo "oops. something wrong with wget:" >&2
-  ls -l backup.rss >&2
-  exit 1
-fi
+while ! wget -nv -O backup.rss -q "$EXPORTURL"
+do
+    echo "Failed to fetch RSS feed, retrying in 5 seconds..." >&2
+    sleep 5
+done
 
 if ! test -s backup.rss; then
   echo "oops. something wrong:" >&2
